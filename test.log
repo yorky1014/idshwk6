@@ -1,0 +1,900 @@
+时间和日期：
+C:\Users\11544>date
+当前日期: 2020/05/09 周六
+输入新日期: (年月日)
+
+C:\Users\11544>time
+当前时间: 21:43:27.55
+输入新时间:
+
+OS版本：
+
+主机名:           VULNERABLE
+OS 名称:          Microsoft Windows 10 家庭中文版
+OS 版本:          10.0.18362 暂缺 Build 18362
+OS 制造商:        Microsoft Corporation
+OS 配置:          独立工作站
+OS 构件类型:      Multiprocessor Free
+
+硬件信息：
+
+DiskExt v1.2 - Disk extent dumper
+Copyright (C) 2001-2016 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+Volume: \\?\Volume{156943ca-161a-40ad-bdda-9e095e16c626}\
+   Mounted at: C:\
+   Extent [1]:
+       Disk:   0
+       Offset: 290455552
+       Length: 126710972416
+Volume: \\?\Volume{cb78fbb8-c1e1-4525-bfed-79b2cf6170a9}\
+   Mounted at: <unmounted>
+   Extent [1]:
+       Disk:   0
+       Offset: 127001427968
+       Length: 1027604480
+Volume: \\?\Volume{498a6cca-d920-4437-a753-1d31abdf865b}\
+   Mounted at: D:\
+   Extent [1]:
+       Disk:   1
+       Offset: 1048576
+       Length: 965139759104
+Volume: \\?\Volume{5de7e141-a924-468e-80d5-0118ccf558d1}\
+   Mounted at: E:\
+   Extent [1]:
+       Disk:   1
+       Offset: 986112327680
+       Length: 14091812864
+Volume: \\?\Volume{d762ed24-3d4d-47f5-8415-d5f6ad9fc51b}\
+   Mounted at: <unmounted>
+   Error getting extents
+拒绝访问。
+
+网卡信息：
+
+网卡:             安装了 7 个 NIC。
+                  [01]: VMware Virtual Ethernet Adapter for VMnet1
+                      连接名:      VMware Network Adapter VMnet1
+                      启用 DHCP:   是
+                      DHCP 服务器: 192.168.115.254
+                      IP 地址
+                        [01]: 192.168.115.1
+                        [02]: fe80::e9d4:2499:79d5:85c8
+                  [02]: Netease UU TAP-Win32 Adapter V9.21
+                      连接名:      以太网
+                      状态:        媒体连接已中断
+                  [03]: VMware Virtual Ethernet Adapter for VMnet8
+                      连接名:      VMware Network Adapter VMnet8
+                      启用 DHCP:   是
+                      DHCP 服务器: 192.168.80.254
+                      IP 地址
+                        [01]: 192.168.80.1
+                        [02]: fe80::e5a7:2eef:b70a:4e02
+                  [04]: Sangfor SSL VPN CS Support System VNIC
+                      连接名:      以太网 3
+                      状态:        媒体连接已中断
+                  [05]: Realtek Gaming GbE Family Controller
+                      连接名:      以太网 2
+                      启用 DHCP:   是
+                      DHCP 服务器: 192.168.1.1
+                      IP 地址
+                        [01]: 192.168.1.109
+                  [06]: Realtek RTL8822BE 802.11ac PCIe Adapter
+                      连接名:      WLAN
+                      启用 DHCP:   是
+                      DHCP 服务器: 192.168.1.1
+                      IP 地址
+                        [01]: 192.168.1.106
+                        [02]: fe80::4d7c:9379:ba57:7add
+                  [07]: Microsoft Wi-Fi Direct Virtual Adapter
+                      连接名:      本地连接* 13
+                      状态:        媒体连接已中断
+
+路由信息：
+
+===========================================================================
+接口列表
+  8...00 ff 28 6f 29 1d ......Sangfor SSL VPN CS Support System VNIC
+ 20...ea 9e b4 43 80 c1 ......Microsoft Wi-Fi Direct Virtual Adapter #4
+ 18...fa 9e b4 43 80 c1 ......Microsoft Wi-Fi Direct Virtual Adapter #5
+ 25...48 ba 4e 40 7e 05 ......Realtek Gaming GbE Family Controller #2
+ 11...00 ff 48 9d 2d 32 ......Netease UU TAP-Win32 Adapter V9.21
+  9...00 50 56 c0 00 01 ......VMware Virtual Ethernet Adapter for VMnet1
+ 26...00 50 56 c0 00 08 ......VMware Virtual Ethernet Adapter for VMnet8
+  3...e8 9e b4 43 80 c1 ......Realtek RTL8822BE 802.11ac PCIe Adapter
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 路由表
+===========================================================================
+活动路由:
+网络目标        网络掩码          网关       接口   跃点数
+          0.0.0.0          0.0.0.0      192.168.1.1    192.168.1.109     35
+          0.0.0.0          0.0.0.0      192.168.1.1    192.168.1.106     55
+        127.0.0.0        255.0.0.0            在链路上         127.0.0.1    331
+        127.0.0.1  255.255.255.255            在链路上         127.0.0.1    331
+  127.255.255.255  255.255.255.255            在链路上         127.0.0.1    331
+      192.168.1.0    255.255.255.0            在链路上     192.168.1.106    311
+      192.168.1.0    255.255.255.0            在链路上     192.168.1.109    291
+    192.168.1.106  255.255.255.255            在链路上     192.168.1.106    311
+    192.168.1.109  255.255.255.255            在链路上     192.168.1.109    291
+    192.168.1.255  255.255.255.255            在链路上     192.168.1.106    311
+    192.168.1.255  255.255.255.255            在链路上     192.168.1.109    291
+     192.168.80.0    255.255.255.0            在链路上      192.168.80.1    291
+     192.168.80.1  255.255.255.255            在链路上      192.168.80.1    291
+   192.168.80.255  255.255.255.255            在链路上      192.168.80.1    291
+    192.168.115.0    255.255.255.0            在链路上     192.168.115.1    291
+    192.168.115.1  255.255.255.255            在链路上     192.168.115.1    291
+  192.168.115.255  255.255.255.255            在链路上     192.168.115.1    291
+        224.0.0.0        240.0.0.0            在链路上         127.0.0.1    331
+        224.0.0.0        240.0.0.0            在链路上     192.168.115.1    291
+        224.0.0.0        240.0.0.0            在链路上      192.168.80.1    291
+        224.0.0.0        240.0.0.0            在链路上     192.168.1.109    291
+        224.0.0.0        240.0.0.0            在链路上     192.168.1.106    311
+  255.255.255.255  255.255.255.255            在链路上         127.0.0.1    331
+  255.255.255.255  255.255.255.255            在链路上     192.168.115.1    291
+  255.255.255.255  255.255.255.255            在链路上      192.168.80.1    291
+  255.255.255.255  255.255.255.255            在链路上     192.168.1.109    291
+  255.255.255.255  255.255.255.255            在链路上     192.168.1.106    311
+===========================================================================
+永久路由:
+  无
+
+IPv6 路由表
+===========================================================================
+活动路由:
+ 接口跃点数网络目标                网关
+  1    331 ::1/128                  在链路上
+  9    291 fe80::/64                在链路上
+ 26    291 fe80::/64                在链路上
+  3    306 fe80::/64                在链路上
+  3    306 fe80::4d7c:9379:ba57:7add/128
+                                    在链路上
+ 26    291 fe80::e5a7:2eef:b70a:4e02/128
+                                    在链路上
+  9    291 fe80::e9d4:2499:79d5:85c8/128
+                                    在链路上
+  1    331 ff00::/8                 在链路上
+  9    291 ff00::/8                 在链路上
+ 26    291 ff00::/8                 在链路上
+  3    306 ff00::/8                 在链路上
+===========================================================================
+永久路由:
+  无
+
+服务信息（只截取一部分）：
+
+Sysinternals Autoruns v11.70 - Autostart program viewer
+Copyright (C) 2002-2013 Mark Russinovich and Bryce Cogswell
+Sysinternals - www.sysinternals.com
+
+
+HKLM\System\CurrentControlSet\Services
+   Entry last modified: 2019/10/3 21:17
+   AarSvc
+     %SystemRoot%\System32\AarSvc.dll
+     Runtime for activating conversational agent applications
+     Microsoft Corporation
+     6.2.18362.628
+     c:\windows\system32\aarsvc.dll
+     2002/4/9 23:29
+   AarSvc_7d192
+     C:\WINDOWS\system32\svchost.exe -k AarSvcGroup -p
+     Runtime for activating conversational agent applications
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\svchost.exe
+     1997/1/11 6:26
+   AdobeUpdateService
+     "C:\Program Files (x86)\Common Files\Adobe\Adobe Desktop Common\ElevationManager\AdobeUpdateService.exe"
+     Adobe Update Service
+     Adobe Systems Incorporated
+     4.5.0.331
+     c:\program files (x86)\common files\adobe\adobe desktop common\elevationmanager\adobeupdateservice.exe
+     2018/4/24 22:28
+   AGMService
+     "C:\Program Files (x86)\Common Files\Adobe\AdobeGCClient\AGMService.exe"
+     Adobe Genuine Monitor Service
+     Adobe Systems, Incorporated
+     6.6.0.204
+     c:\program files (x86)\common files\adobe\adobegcclient\agmservice.exe
+     2020/3/4 20:04
+   AGSService
+     "C:\Program Files (x86)\Common Files\Adobe\AdobeGCClient\AGSService.exe"
+     Adobe Genuine Software Integrity Service
+     Adobe Systems, Incorporated
+     6.6.0.204
+     c:\program files (x86)\common files\adobe\adobegcclient\agsservice.exe
+     2020/3/4 20:03
+   AJRouter
+     %SystemRoot%\System32\AJRouter.dll
+     路由本地 AllJoyn 客户端的 AllJoyn 消息。如果停止此服务，则自身没有捆绑路由器的 AllJoyn 客户端将无法运行。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\ajrouter.dll
+     1963/11/25 19:41
+   ALG
+     %SystemRoot%\System32\alg.exe
+     为 Internet 连接共享提供第三方协议插件的支持
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\alg.exe
+     1944/8/31 21:22
+   AppHostSvc
+     %windir%\system32\inetsrv\apphostsvc.dll
+     为 IIS 提供管理服务，例如配置历史记录和应用程序池帐户映射。如果停止此服务，则配置历史记录将无法工作，也无法用特定于应用程序池的访问控制项锁定文件或目录。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\inetsrv\apphostsvc.dll
+     1953/1/26 18:13
+   AppIDSvc
+     %SystemRoot%\System32\appidsvc.dll
+     确定并验证应用程序的标识。禁用此服务将阻止强制执行 AppLocker。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\appidsvc.dll
+     1968/12/30 23:44
+   Appinfo
+     %SystemRoot%\System32\appinfo.dll
+     使用辅助管理权限便于交互式应用程序的运行。如果停止此服务，用户将无法使用辅助管理权限启动应用程序，而执行所需用户任 务可能需要这些权限。
+     Microsoft Corporation
+     6.2.18362.693
+     c:\windows\system32\appinfo.dll
+     1958/3/26 23:40
+   AppReadiness
+     %SystemRoot%\system32\AppReadiness.dll
+     当用户初次登录到这台电脑和添加新应用时，使应用进入就绪可用的状态。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\appreadiness.dll
+     2031/1/25 18:43
+   AppXSvc
+     %SystemRoot%\system32\appxdeploymentserver.dll
+     为部署 Microsoft Store 应用程序提供基础结构支持。此服务根据需要启动，如果已禁用的 Microsoft Store 应用程序未部署到 系统，此服务可能无法正常工作。
+     Microsoft Corporation
+     6.2.18362.752
+     c:\windows\system32\appxdeploymentserver.dll
+     2007/9/19 11:56
+   aspnet_state
+     %systemroot%\Microsoft.NET\Framework64\v4.0.30319\aspnet_state.exe
+     Provides support for out-of-process session states for ASP.NET. If this service is stopped, out-of-process requests will not be processed. If this service is disabled, any services that explicitly depend on it will fail to start.
+     Microsoft Corporation
+     4.8.3752.0
+     c:\windows\microsoft.net\framework64\v4.0.30319\aspnet_state.exe
+     2019/3/2 13:38
+   AudioEndpointBuilder
+     %SystemRoot%\System32\AudioEndpointBuilder.dll
+     管理 Windows 音频服务的音频设备。如果停止了此服务，音频设备和效果将无法正常工作。如果禁用了此服务，任何明确依赖它的服务将无法启动
+     Microsoft Corporation
+     6.2.18362.752
+     c:\windows\system32\audioendpointbuilder.dll
+     1921/1/25 6:18
+   Audiosrv
+     %SystemRoot%\System32\Audiosrv.dll
+     管理基于 Windows 的程序的音频。如果此服务被停止，音频设备和效果将不能正常工作。如果此服务被禁用，任何依赖它的服务将无法启动
+     Microsoft Corporation
+     6.2.18362.752
+     c:\windows\system32\audiosrv.dll
+     1970/6/6 5:46
+   autotimesvc
+     %SystemRoot%\System32\autotimesvc.dll
+     此服务基于移动网络中的 NITZ 消息设置时间
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\autotimesvc.dll
+     2028/12/14 16:15
+   AxInstSV
+     %SystemRoot%\System32\AxInstSV.dll
+     为从 Internet 安装 ActiveX 控件提供用户帐户控制验证，并基于组策略设置启用对 ActiveX 控件安装的管理。此服务根据要求 启动，是否禁用 ActiveX 控件的安装取决于默认浏览器设置。
+     Microsoft Corporation
+     6.2.18362.719
+     c:\windows\system32\axinstsv.dll
+     1945/5/3 10:58
+   BcastDVRUserService
+     %SystemRoot%\System32\BcastDVRUserService.dll
+     此用户服务用于游戏录制和实况广播
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\bcastdvruserservice.dll
+     2029/5/7 22:06
+   BcastDVRUserService_7d192
+     C:\WINDOWS\system32\svchost.exe -k BcastDVRUserService
+     此用户服务用于游戏录制和实况广播
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\svchost.exe
+     1997/1/11 6:26
+   BDESVC
+     %SystemRoot%\System32\bdesvc.dll
+     BDESVC 承载 BitLocker 驱动器加密服务。BitLocker 驱动器加密为操作系统提供安全启动保障，并为 OS、固定卷和可移动卷提供全卷加密功能。使用此服务，BitLocker 可以提示用户执行与已安装卷相关的各种操作，并自动解锁卷而无需用户交互。此外，它还会将恢复信息存储至 Active Directory (如果这种方法可用并且需要这样做)，并确保使用最新的恢复证书。停止或禁用该服务可以防止用户使用此功能。
+     Microsoft Corporation
+     6.2.18362.387
+     c:\windows\system32\bdesvc.dll
+     2027/7/14 8:40
+   BEService
+     "C:\Program Files (x86)\Common Files\BattlEye\BEService.exe"
+     c:\program files (x86)\common files\battleye\beservice.exe
+     2018/12/19 4:19
+   BFE
+     %SystemRoot%\System32\bfe.dll
+     基本筛选引擎(BFE)是一种管理防火墙和 Internet 协议安全(IPsec)策略以及实施用户模式筛选的服务。停止或禁用 BFE 服务将大大降低系统的安全。还将造成 IPsec 管理和防火墙应用程序产生不可预知的行为。
+     Microsoft Corporation
+     6.2.18362.207
+     c:\windows\system32\bfe.dll
+     1981/3/21 16:18
+   BITS
+     %SystemRoot%\System32\qmgr.dll
+     使用空闲网络带宽在后台传送文件。如果该服务被禁用，则依赖于 BITS 的任何应用程序(如 Windows 更新或 MSN Explorer)将无 法自动下载程序和其他信息。
+     Microsoft Corporation
+     7.8.18362.719
+     c:\windows\system32\qmgr.dll
+     1983/10/16 19:20
+   BluetoothUserService
+     %SystemRoot%\System32\Microsoft.Bluetooth.UserService.dll
+     蓝牙用户服务支持与每个用户会话相关的蓝牙功能的正确运行。
+     Microsoft Corporation
+     6.2.18362.449
+     c:\windows\system32\microsoft.bluetooth.userservice.dll
+     1953/4/13 18:50
+   BluetoothUserService_7d192
+     C:\WINDOWS\system32\svchost.exe -k BthAppGroup -p
+     蓝牙用户服务支持与每个用户会话相关的蓝牙功能的正确运行。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\svchost.exe
+     1997/1/11 6:26
+   BrokerInfrastructure
+     %SystemRoot%\System32\psmsrv.dll
+     控制哪些后台任务可以在系统上运行的 Windows 基础结构服务。
+     Microsoft Corporation
+     6.2.18362.295
+     c:\windows\system32\psmsrv.dll
+     2025/9/30 8:40
+   BTAGService
+     %SystemRoot%\System32\BTAGService.dll
+     支持蓝牙免提规范音频网关角色的服务。
+     Microsoft Corporation
+     6.2.18362.752
+     c:\windows\system32\btagservice.dll
+     1949/5/21 17:08
+   BTDevManager
+     "C:\Program Files (x86)\REALTEK\Realtek Bluetooth\BTDevMgr.exe"
+     REALTEK Bluetooth Service
+     Realtek Semiconductor Corp.
+     1.0.71.1
+     c:\program files (x86)\realtek\realtek bluetooth\btdevmgr.exe
+     2017/4/14 16:50
+   BthAvctpSvc
+     %SystemRoot%\System32\BthAvctpSvc.dll
+     这是音频视频控制传输协议服务
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\bthavctpsvc.dll
+     2004/9/21 18:03
+   bthserv
+     %SystemRoot%\system32\bthserv.dll
+     蓝牙服务支持发现和关联远程蓝牙设备。停止或禁用此服务可能会导致已安装的蓝牙设备无法正常运行，并使新设备无法被发现或 关联。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\bthserv.dll
+     1995/5/20 9:01
+   CAJ Service Host
+     "C:\Program Files (x86)\TTKN\CAJVD\CAJSHost.exe"
+     TTKN®CAJHost
+     Tongfang Knowledge Network Technology(Beijing) Co., Ltd.
+     1.0.56.0
+     c:\program files (x86)\ttkn\cajvd\cajshost.exe
+     2012/4/10 17:46
+   camsvc
+     %SystemRoot%\system32\CapabilityAccessManager.dll
+     提供设施，用于管理 UWP 应用对应用功能的访问权限以及检查应用的特定应用功能访问权限
+     Microsoft Corporation
+     6.2.18362.145
+     c:\windows\system32\capabilityaccessmanager.dll
+     1971/1/9 9:22
+   CaptureService
+     %SystemRoot%\System32\CaptureService.dll
+     为调用 Windows.Graphics.Capture API 的应用程序启用可选的屏幕捕获功能。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\captureservice.dll
+     1986/2/3 11:44
+   CaptureService_7d192
+     C:\WINDOWS\system32\svchost.exe -k LocalService -p
+     为调用 Windows.Graphics.Capture API 的应用程序启用可选的屏幕捕获功能。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\svchost.exe
+     1997/1/11 6:26
+   cbdhsvc
+     %SystemRoot%\System32\cbdhsvc.dll
+     此用户服务用于剪贴板方案
+     Microsoft Corporation
+     6.2.18362.329
+     c:\windows\system32\cbdhsvc.dll
+     1962/1/22 14:00
+   cbdhsvc_7d192
+     C:\WINDOWS\system32\svchost.exe -k ClipboardSvcGroup -p
+     此用户服务用于剪贴板方案
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\svchost.exe
+     1997/1/11 6:26
+   CDPSvc
+     %SystemRoot%\System32\CDPSvc.dll
+     此服务用于连接设备平台方案
+     Microsoft Corporation
+     6.2.18362.657
+     c:\windows\system32\cdpsvc.dll
+     2028/11/5 9:38
+   CDPUserSvc
+     %SystemRoot%\System32\CDPUserSvc.dll
+     此用户服务用于连接设备平台方案
+     Microsoft Corporation
+     6.2.18362.449
+     c:\windows\system32\cdpusersvc.dll
+     2013/10/19 2:02
+   CDPUserSvc_7d192
+     C:\WINDOWS\system32\svchost.exe -k UnistackSvcGroup
+     此用户服务用于连接设备平台方案
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\svchost.exe
+     1997/1/11 6:26
+   CertPropSvc
+     %SystemRoot%\System32\certprop.dll
+     将用户证书和根证书从智能卡复制到当前用户的证书存储，检测智能卡何时插入到智能卡读卡器中，并在需要时安装智能卡即插即 用微型驱动器。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\certprop.dll
+     1981/3/4 21:47
+   ClickToRunSvc
+     "C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe" /service
+     ‪管理 Microsoft Office 及其相关更新的资源协调、后台下载和系统集成。使用任何 Microsoft Office 程序、初始下载安装以及所有后续更新期间需要运行此服务。‬
+     Microsoft Corporation
+     16.0.12730.20236
+     c:\program files\common files\microsoft shared\clicktorun\officeclicktorun.exe
+     2020/4/29 4:29
+   ClipSVC
+     %SystemRoot%\System32\ClipSVC.dll
+     提供对 Microsoft Store 的基础结构支持。此服务按需启动，并且如果禁用了此服务，则使用 Windows Store 购买的应用程序将 无法正常运行。
+     Microsoft Corporation
+     6.2.18362.693
+     c:\windows\system32\clipsvc.dll
+     2010/8/6 14:29
+   COMSysApp
+     %SystemRoot%\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}
+     管理基于组件对象模型 (COM+) 的组件的配置和跟踪。如果停止该服务，则大多数基于 COM+ 的组件将不能正常工作。如果禁用该 服务，则任何明确依赖它的服务都将无法启动。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\dllhost.exe
+     1954/11/21 4:34
+   ConsentUxUserSvc
+     %SystemRoot%\System32\ConsentUxClient.dll
+     允许 ConnectUX 和电脑设置连接 WLAN 显示器和蓝牙设备并与其配对。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\consentuxclient.dll
+     2029/6/16 6:36
+   ConsentUxUserSvc_7d192
+     C:\WINDOWS\system32\svchost.exe -k DevicesFlow
+     允许 ConnectUX 和电脑设置连接 WLAN 显示器和蓝牙设备并与其配对。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\svchost.exe
+     1997/1/11 6:26
+   CoreMessagingRegistrar
+     %SystemRoot%\system32\coremessaging.dll
+     Manages communication between system components.
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\coremessaging.dll
+     1978/7/25 3:40
+   cphs
+     %SystemRoot%\System32\DriverStore\FileRepository\ki124014.inf_amd64_2a9c1703ea940708\IntelCpHeciSvc.exe
+     Intel(R) Content Protection HECI Service - enables communication with the Content Protection FW
+     Intel Corporation
+     9.0.14.317
+     c:\windows\system32\driverstore\filerepository\ki124014.inf_amd64_2a9c1703ea940708\intelcphecisvc.exe
+     2017/3/14 15:01
+   cplspcon
+     %SystemRoot%\System32\DriverStore\FileRepository\ki124014.inf_amd64_2a9c1703ea940708\IntelCpHDCPSvc.exe
+     Intel(R) Content Protection HDCP Service - enables communication with Content Protection HDCP HW
+     Intel Corporation
+     22.20.16.4771
+     c:\windows\system32\driverstore\filerepository\ki124014.inf_amd64_2a9c1703ea940708\intelcphdcpsvc.exe
+     2017/8/14 14:12
+   CredentialEnrollmentManagerUserSvc
+     %SystemRoot%\system32\CredentialEnrollmentManager.exe
+     凭据注册管理器
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\credentialenrollmentmanager.exe
+     1951/7/19 13:52
+   CredentialEnrollmentManagerUserSvc_7d192
+     C:\WINDOWS\system32\CredentialEnrollmentManager.exe
+     凭据注册管理器
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\credentialenrollmentmanager.exe
+     1951/7/19 13:52
+   CryptSvc
+     %SystemRoot%\system32\cryptsvc.dll
+     提供三种管理服务: 编录数据库服务，用于确认 Windows 文件的签名和允许安装新程序；受保护的根服务，它从此计算机添加和删除受信任的根证书颁发机构的证书；自动根证书更新服务，用于从 Windows 更新中检索根证书和启用 SSL 等方案。如果此服务已停止，这些管理服务将无法正常运行。如果此服务已禁用，任何明确依赖它的服务将无法启动。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\cryptsvc.dll
+     2036/1/12 17:07
+   DcomLaunch
+     %SystemRoot%\system32\rpcss.dll
+     DCOMLAUNCH 服务可启动 COM 和 DCOM 服务器，以响应对象激活请求。如果此服务被停用或禁用，则使用 COM 或 DCOM 的程序将无法正常工作。强烈建议你运行 DCOMLAUNCH 服务。
+     Microsoft Corporation
+     6.2.18362.752
+     c:\windows\system32\rpcss.dll
+     1942/9/3 2:10
+   debugregsvc
+     %SystemRoot%\System32\debugregsvc.dll
+     Provides helper APIs to enable device discovery and debugging over the network
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\debugregsvc.dll
+     1950/12/28 22:42
+   defragsvc
+     %Systemroot%\System32\defragsvc.dll
+     通过优化存储驱动器上的文件来帮助计算机更高效地运行。
+     Microsoft Corporation
+     6.2.18362.657
+     c:\windows\system32\defragsvc.dll
+     1903/4/15 1:37
+   DeveloperToolsService
+     %SystemRoot%\System32\DeveloperToolsSvc.exe
+     Enables scenarios for remote UWP application deployment and debugging
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\developertoolssvc.exe
+     1979/8/10 1:59
+   DeviceAssociationBrokerSvc
+     %SystemRoot%\System32\deviceaccess.dll
+     Enables apps to pair devices
+     Microsoft Corporation
+     6.2.18362.752
+     c:\windows\system32\deviceaccess.dll
+     1952/6/21 13:14
+   DeviceAssociationBrokerSvc_7d192
+     C:\WINDOWS\system32\svchost.exe -k DevicesFlow -p
+     Enables apps to pair devices
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\svchost.exe
+     1997/1/11 6:26
+   DeviceAssociationService
+     %SystemRoot%\system32\das.dll
+     在系统与有线或无线设备之间启用匹配。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\das.dll
+     2012/9/16 19:48
+   DeviceInstall
+     %SystemRoot%\system32\umpnpmgr.dll
+     使计算机在极少或没有用户输入的情况下能识别并适应硬件的更改。终止或禁用此服务会造成系统不稳定。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\umpnpmgr.dll
+     1947/11/16 17:19
+   DevicePickerUserSvc
+     %SystemRoot%\System32\Windows.Devices.Picker.dll
+     此用户服务用于管理 Miracast、DLNA 和拨号用户界面
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\windows.devices.picker.dll
+     1926/12/18 5:04
+   DevicePickerUserSvc_7d192
+     C:\WINDOWS\system32\svchost.exe -k DevicesFlow
+     此用户服务用于管理 Miracast、DLNA 和拨号用户界面
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\svchost.exe
+     1997/1/11 6:26
+   DevicesFlowUserSvc
+     %SystemRoot%\System32\DevicesFlowBroker.dll
+     允许 ConnectUX 和电脑设置连接 WLAN 显示器和蓝牙设备并与其配对。
+     Microsoft Corporation
+     6.2.18362.449
+     c:\windows\system32\devicesflowbroker.dll
+     1993/9/29 2:23
+   DevicesFlowUserSvc_7d192
+     C:\WINDOWS\system32\svchost.exe -k DevicesFlow
+     允许 ConnectUX 和电脑设置连接 WLAN 显示器和蓝牙设备并与其配对。
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\svchost.exe
+     1997/1/11 6:26
+   DevQueryBroker
+     %SystemRoot%\system32\DevQueryBroker.dll
+     使应用能够发现具有后台任务的设备
+     Microsoft Corporation
+     6.2.18362.535
+     c:\windows\system32\devquerybroker.dll
+     2019/5/1 9:44
+   Dhcp
+     %SystemRoot%\system32\dhcpcore.dll
+     为此计算机注册并更新 IP 地址。如果此服务停止，计算机将不能接收动态 IP 地址和 DNS 更新。如果此服务被禁用，所有明确依赖它的服务都将不能启动。
+     Microsoft Corporation
+     6.2.18362.267
+     c:\windows\system32\dhcpcore.dll
+     1921/5/26 1:01
+   diagnosticshub.standardcollector.service
+     %SystemRoot%\system32\DiagSvcs\DiagnosticsHub.StandardCollector.Service.exe
+     诊断中心标准收集器服务。运行时，此服务会收集实时 ETW 事件，并对其进行处理。
+     Microsoft Corporation
+     11.0.18362.719
+     c:\windows\system32\diagsvcs\diagnosticshub.standardcollector.service.exe
+     1960/12/18 14:06
+   diagsvc
+     %systemroot%\system32\DiagSvc.dll
+     Executes diagnostic actions for troubleshooting support
+     Microsoft Corporation
+     6.2.18362.449
+     c:\windows\system32\diagsvc.dll
+     1975/9/23 6:11
+   DiagTrack
+     %SystemRoot%\system32\diagtrack.dll
+     Connected User Experiences and Telemetry 服务所启用的功能支持应用程序中用户体验和连接的用户体验。此外，如果在“反馈和诊断”下启用诊断和使用情况隐私选项设置，则此服务可以根据事件来管理诊断和使用情况信息的收集和传输(用于改进 Windows 平台的体验和质量)。
+     Microsoft Corporation
+     6.2.18362.778
+     c:\windows\system32\diagtrack.dll
+     1929/9/20 0:11
+   DispBrokerDesktopSvc
+     %SystemRoot%\System32\DispBroker.Desktop.dll
+     管理本地和远程显示器的连接和配置
+     Microsoft Corporation
+     6.2.18362.628
+     c:\windows\system32\dispbroker.desktop.dll
+     1960/5/17 21:01
+   DisplayEnhancementService
+     %SystemRoot%\system32\Microsoft.Graphics.Display.DisplayEnhancementService.dll
+     用于管理显示增强(如亮度控制)的服务。
+     Microsoft Corporation
+     6.2.18362.693
+     c:\windows\system32\microsoft.graphics.display.displayenhancementservice.dll
+     1978/7/10 22:04
+   DmEnrollmentSvc
+     %systemroot%\system32\Windows.Internal.Management.dll
+     为设备管理执行设备注册活动
+     Microsoft Corporation
+     6.2.18362.752
+     c:\windows\system32\windows.internal.management.dll
+     1998/9/1 18:45
+   dmwappushservice
+     %SystemRoot%\system32\dmwappushsvc.dll
+     路由设备收到的无线应用程序协议 (WAP) 推送消息并同步设备管理会话
+     Microsoft Corporation
+     6.2.18362.1
+     c:\windows\system32\dmwappushsvc.dll
+
+进程信息：
+
+Process information for VULNERABLE:
+
+Name                Pid Pri Thd  Hnd   Priv        CPU Time    Elapsed Time
+Idle                  0   0   4    0     60     6:40:10.500     3:05:58.948
+System                4   8 178 6643    192     0:12:52.859     3:05:58.948
+Registry            104   8   4    0  17164     0:00:00.921     3:06:01.925
+smss                364  11   3   53   1200     0:00:00.218     3:05:58.943
+csrss               656  13  11  859   1844     0:00:02.765     3:05:53.433
+wininit             756  13   2  157   1592     0:00:00.078     3:05:52.058
+csrss               764  13  14  762   2648     0:03:17.265     3:05:52.053
+services            828   9   9  837   6016     0:00:07.468     3:05:51.975
+lsass               844   9  12 1778   8892     0:00:06.156     3:05:51.948
+winlogon            928  13   5  274   2720     0:00:00.078     3:05:51.778
+svchost             324   8   2   86    968     0:00:00.031     3:05:51.757
+svchost             540   8  19 1357  12424     0:00:07.828     3:05:51.740
+fontdrvhost         520   8   6   32  14312     0:00:11.656     3:05:51.740
+fontdrvhost         532   8   6   32  11004     0:00:00.031     3:05:51.740
+WUDFHost            752  13  11  297   5928     0:00:00.234     3:05:51.728
+svchost            1080   8  14 1440   9312     0:00:13.453     3:05:51.630
+svchost            1136   8   6  336   3068     0:00:02.265     3:05:51.605
+dwm                1260  13  16 1257  94448     0:09:07.140     3:05:51.524
+svchost            1356   8   9  281   2576     0:00:00.578     3:05:51.428
+svchost            1452   8   3  187   1636     0:00:00.218     3:05:51.399
+svchost            1484   8   2  154   2036     0:00:00.078     3:05:51.388
+svchost            1492   8   4  255   2668     0:00:00.218     3:05:51.388
+svchost            1552   8  11  436   6688     0:00:01.984     3:05:51.375
+svchost            1632   8   3  250   2140     0:00:00.062     3:05:51.355
+svchost            1680   8   3  228   7936     0:00:01.671     3:05:51.336
+svchost            1692   8   7  142   1660     0:00:00.062     3:05:51.331
+svchost            1792   8   9  437  15964     0:00:01.796     3:05:51.296
+svchost            1852   8   2  124   1520     0:00:00.015     3:05:51.274
+svchost            1908   8   8  289   2920     0:00:01.031     3:05:51.245
+svchost            1240   8   5  170   6396     0:00:02.375     3:05:51.192
+AppHelperCap       1724   8   3  111   1416     0:00:00.000     3:05:51.173
+NetworkCap         1232   8   4  184   3028     0:00:00.125     3:05:51.171
+OmenCap            2080   8   3  117   1408     0:00:00.015     3:05:51.161
+SysInfoCap         2096   8  11  273   4652     0:00:00.265     3:05:51.155
+svchost            2108   8   8  202   6860     0:00:11.703     3:05:51.151
+svchost            2160   8   5  203   1912     0:00:00.062     3:05:51.125
+svchost            2184   8  10  248   2748     0:00:14.671     3:05:51.119
+svchost            2304   8   8  323   5600     0:00:02.406     3:05:51.071
+svchost            2324   8   5  188   2000     0:00:00.328     3:05:51.067
+svchost            2384   8   3  221   2416     0:00:00.062     3:05:51.042
+svchost            2464   8  12  397   4984     0:00:06.625     3:05:51.018
+svchost            2472   8   5  182   2028     0:00:00.062     3:05:51.017
+svchost            2496   8   6  225   2580     0:00:13.859     3:05:51.006
+svchost            2520   8   3  259   1344     0:00:00.421     3:05:50.993
+svchost            2532   8  14  308   3776     0:00:50.453     3:05:50.989
+Memory Compression  2596   8  78    0    956     0:00:31.296     3:05:50.929
+svchost            2620   8   6  223   2288     0:00:00.015     3:05:50.923
+svchost            2684   8   2  230   2336     0:00:00.078     3:05:50.884
+igfxCUIService     2804   8   3  172   1800     0:00:00.015     3:05:50.777
+svchost            2864   8   3  183   1812     0:00:00.109     3:05:50.728
+svchost            2884   8  11  180   2412     0:00:02.390     3:05:50.719
+svchost            2960   8   8  512   3000     0:00:03.109     3:05:50.671
+svchost            3056   8  14 2865  15048     0:00:08.968     3:05:50.601
+svchost            3084   8  10  379   3456     0:00:08.796     3:05:50.500
+RtkAudioService64  3308   8   5  209   1820     0:00:00.078     3:05:50.377
+svchost            3360   8  15  224   3308     0:00:02.953     3:05:50.312
+svchost            3372   8   5  138   1728     0:00:00.156     3:05:50.309
+svchost            3380   8  11  372   3008     0:00:00.531     3:05:50.306
+HaozipSvc          3516   8  23  503  12228     0:02:16.484     3:05:50.209
+svchost            3644   8  13  513   6024     0:00:01.671     3:05:50.044
+wlanext            3824   8  11  187   2536     0:00:01.031     3:05:49.790
+conhost            3832   8   3  118   6460     0:00:00.031     3:05:49.783
+svchost            3896   8   6  258   3160     0:00:00.125     3:05:49.697
+spoolsv            3996   8   8  447   5668     0:00:00.171     3:05:49.647
+svchost             644   8  14  423   9496     0:00:04.609     3:05:49.508
+svchost            4116   8   7  274   2724     0:00:03.109     3:05:49.333
+svchost            4124   8   4  167   1808     0:00:00.281     3:05:49.333
+CAJSHost           4228   8   3  159   1616     0:00:00.015     3:05:49.279
+BTDevMgr           4236   8   8  179   3760     0:00:50.328     3:05:49.279
+svchost            4244   8   9  173   4204     0:00:00.031     3:05:49.279
+AGSService         4264   8   3  211   2164     0:00:00.046     3:05:49.275
+IntelCpHDCPSvc     4272   8   4  169   1624     0:00:00.046     3:05:49.275
+OfficeClickToRun   4280   8  23  741  28096     0:00:02.546     3:05:49.274
+AGMService         4288   8   4  217   3360     0:00:01.234     3:05:49.274
+svchost            4312   8   2  152   1436     0:00:00.031     3:05:49.265
+svchost            4344   8  15  674  16660     0:00:07.796     3:05:49.257
+esif_uf            4380  13   4   99   1560     0:00:00.000     3:05:49.251
+svchost            4388   8  20  391  40508     0:00:12.281     3:05:49.251
+svchost            4448   8  14  333   5176     0:00:00.062     3:05:49.222
+HPOMNSVC           4456   8   5  140   1528     0:00:00.031     3:05:49.218
+HPWMISVC           4472   8   3  153   1424     0:00:00.078     3:05:49.211
+inetinfo           4496   8   5  202   8712     0:00:00.031     3:05:49.207
+IpOverUsbSvc       4556   8   6  273   8448     0:00:00.125     3:05:49.191
+svchost            4584   8  11  504  10044     0:00:02.906     3:05:49.178
+QQProtect          4652   8  23  469  17748     0:00:03.234     3:05:49.147
+svchost            4676   8   2  132   1632     0:00:00.046     3:05:49.138
+RtkBtAudioServ     4736   8   4  152   1700     0:00:00.000     3:05:49.099
+RtkBtManServ       4752   8   4  142   2612     0:00:39.734     3:05:49.093
+svchost            4776   8   6  209   2408     0:00:00.093     3:05:49.073
+SangforPromoteService  4864   8  14  435   5136     0:00:06.671     3:05:49.027
+SynTPEnhService    4924   8   4  241   1260     0:00:00.015     3:05:48.997
+vmnetdhcp          4932   8   3   87   7628     0:00:00.031     3:05:48.997
+vmware-usbarbitrator64  4944   8   4  221   2672     0:00:00.421     3:05:48.994
+svchost            5000   8  16  228   4796     0:00:00.062     3:05:48.951
+vmware-authd       5020   8   7  331   8508     0:00:22.750     3:05:48.949
+vmnat              5060   8   5  175   2168     0:00:00.296     3:05:48.925
+svchost            5084   8  27  416   8260     0:00:01.234     3:05:48.914
+dasHost            5096   8   4  388   4000     0:00:00.218     3:05:48.911
+svchost            5116   8   7  396   4620     0:00:00.140     3:05:48.898
+MsMpEng            4640   8  32  848 233452     0:09:18.125     3:05:48.896
+svchost            5244   8   5  135   1636     0:00:00.031     3:05:48.849
+svchost            5288   8  11  210   2236     0:00:00.046     3:05:48.838
+IntelCpHeciSvc     5760   8   7  268   3816     0:00:00.046     3:05:48.607
+svchost            5836   8  15  402   3676     0:00:01.312     3:05:48.580
+unsecapp           6084   8   3  144   1688     0:00:00.109     3:05:48.431
+svchost            6664   8   9  259   2436     0:00:00.921     3:05:47.966
+WmiPrvSE           6720   8   5  202   3440     0:00:00.500     3:05:47.943
+vmware-hostd       6076   8  18  417  28808     0:00:03.937     3:05:47.399
+svchost            7248   8   4  115   1380     0:00:00.031     3:05:46.926
+sihost             7488   8  13  747   7076     0:00:03.984     3:05:46.542
+svchost            7504   8  15  450   9628     0:00:08.203     3:05:46.533
+PresentationFontCache  7556   8   5  234  24396     0:00:00.078     3:05:46.493
+svchost            7628   8   8  647   8496     0:00:01.921     3:05:46.410
+svchost            7664   8   6  265   3492     0:00:01.625     3:05:46.370
+HPJumpStartLaunch  7820   6   2  187   3928     0:00:00.078     3:05:46.240
+HPOMENBG           7880   6   6  285   6256     0:00:00.281     3:05:46.219
+taskhostw          7900   8  13  345  42336     0:00:05.734     3:05:46.210
+svchost            8156   8   4  171   1808     0:00:00.062     3:05:46.120
+igfxEM             8176   8   4  212   3420     0:00:00.328     3:05:46.105
+ctfmon             4180  13  10  704  12044     0:00:11.156     3:05:46.031
+svchost            8208   8   9  407   4840     0:00:00.640     3:05:45.878
+explorer           8348   8  80 2460  78364     0:01:22.953     3:05:45.707
+ChsIME             8672   8   3  155   1720     0:00:00.015     3:05:44.958
+NisSrv             8896   8  11  200   8140     0:00:06.109     3:05:44.585
+svchost            8960   8  13  371   4344     0:00:00.312     3:05:44.522
+StartMenuExperienceHost  7568   8  17  666  33392     0:00:02.234     3:05:43.815
+SynTPEnh           9048  10  14  775  16252     0:00:28.109     3:05:43.745
+dllhost            9348   8   4  127   1620     0:00:00.250     3:05:43.472
+svchost            9396   8   3  191   1964     0:00:00.859     3:05:43.401
+ECAgent            9416   8   7  266   4020     0:00:02.609     3:05:43.383
+RuntimeBroker      9504   8  13  375   7372     0:00:00.390     3:05:43.263
+SynTPHelper        9560  10   2   72   1096     0:00:00.046     3:05:43.163
+SearchUI           9656   8  39 1406  88008     0:00:05.187     3:05:42.694
+SearchIndexer      9708   8  25  897  42208     0:00:15.734     3:05:42.553
+RuntimeBroker      9920   8  14  512   8952     0:00:01.859     3:05:42.227
+svchost           10588   8   9  289   3860     0:00:00.328     3:05:40.727
+svchost           10968   8   6  337   6228     0:00:00.640     3:05:40.320
+RuntimeBroker     11152   8   3  313   4272     0:00:07.437     3:05:39.846
+SecurityHealthService  8360   8   6  289   3236     0:00:00.093     3:05:39.368
+SecurityHealthHost 10408   8   2  193   2376     0:00:00.093     3:05:39.319
+ShellExperienceHost 10700   8  14  553  12256     0:00:00.437     3:05:39.169
+RuntimeBroker     10880   8   3  207   2456     0:00:00.062     3:05:38.917
+dllhost            7848   8   5  198   3572     0:00:00.031     3:05:38.864
+RuntimeBroker     11312   8   2  216   2772     0:00:00.171     3:05:37.845
+svchost           11780   8   7  203   4064     0:00:00.328     3:05:34.269
+WindowsInternal.ComposableShell.Experiences.TextInput.InputApp  4308   8  27  779  37992     0:00:09.671     3:05:32.935
+smartscreen        6228   8  19  542  20412     0:00:02.421     3:05:31.703
+tgp_daemon         8384   8  74 1236 128128     0:02:11.875     3:05:30.369
+yundetectservice  12000   8  14  301   5288     0:00:01.093     3:05:29.869
+AppleMobileDeviceProcess 12184   8   9  219   3464     0:00:04.890     3:05:29.165
+vmware-tray       12256   8   4  198   2724     0:00:00.062     3:05:28.346
+tcls_core         11376   8  10  314  13364     0:00:01.234     3:05:21.665
+CoolSense         10176   6   3  211   2500     0:00:00.125     3:05:15.725
+hpqwmiex          10168   8   5  235   2100     0:00:00.062     3:05:15.620
+SettingSyncHost   12332   6   4  178   2308     0:00:00.093     3:05:08.880
+YourPhone         12552   8  16  657  33892     0:00:00.406     3:05:06.917
+rail              12920   8  28  446  26840     0:00:14.921     3:05:03.565
+svchost           12704   8   3  139   1684     0:00:00.062     3:05:01.718
+svchost           12736   8   3  221   2508     0:00:00.109     3:05:01.705
+svchost           12804   8   5  263   2852     0:00:00.140     3:05:01.463
+HPAudioSwitch      1820   8  11  528  30188     0:00:01.359     3:04:45.759
+svchost           13308   8   5  473   5432     0:00:00.515     3:03:46.305
+HPCommRecovery    10084   8   9  306  19624     0:00:00.375     3:03:37.241
+HPJumpStartBridge 11160   8   7  410  21016     0:00:00.375     3:03:36.893
+HPSupportSolutionsFrameworkService  6508   8   6  477  43556     0:00:01.046     3:03:36.652
+IAStorDataMgrSvc  10996   8   6  428  33372     0:00:00.953     3:03:35.978
+jhi_service       11564   8   3  158   1468     0:00:00.015     3:03:35.820
+SgrmBroker        11404   8   5   89   3616     0:00:00.281     3:03:35.526
+svchost            9720   8   9  274   4720     0:00:00.640     3:03:35.227
+svchost            9144   8   8  217   2580     0:00:00.093     3:03:35.091
+XtuService         2356   8  12  471  38796     0:00:00.906     3:03:34.954
+ApplicationFrameHost 11320   8  16  567  20956     0:00:04.093     3:03:21.551
+dllhost            5204   8  14  289   7948     0:00:00.296     3:03:21.285
+RuntimeBroker      2104   8  13  585  12012     0:00:03.125     3:03:21.098
+svchost            1660   8   3  148   1704     0:00:00.015     3:03:20.480
+svchost           11636   8   5  429   4364     0:00:00.796     3:03:20.299
+SogouCloud        10088   8  25  455  13644     0:00:36.281     3:03:14.515
+NVIDIA Web Helper 15340   8  97  699  31288     0:00:18.406     3:01:36.263
+conhost           15276   8   4  121   6584     0:00:00.765     3:01:36.247
+svchost           13860   8   2  229   2804     0:00:00.484     3:00:14.547
+pallas            11896   8  19  626  90468     0:09:51.953     2:58:18.009
+TPHelper          14572   8  45  885 107352     0:00:16.000     2:57:56.534
+Video.UI          14704   8  17  706  20728     0:00:00.750     2:17:14.607
+RuntimeBroker     15112   8   3  165   2136     0:00:00.031     2:17:13.684
+taskhostw         12888   8   7  326   5732     0:00:00.187     1:20:44.777
+Microsoft.Photos  17460   8  18  781  48372     0:00:01.437     1:03:00.013
+RuntimeBroker     15872   8   5  382   9100     0:00:00.312     1:02:57.247
+nvcontainer       12232   8  40  698  12824     0:00:03.281     0:57:30.216
+rundll32          12856   8   3  131   1668     0:00:00.046     0:57:28.804
+nvcontainer        4004   8  26  457  44832     0:00:04.843     0:57:27.991
+audiodg            7676   8  25  700  21056     0:00:04.109     0:57:21.594
+NVDisplay.Container 11324   8   9  328   6224     0:00:00.234     0:57:11.484
+NVDisplay.Container 17056   8  26  627  30948     0:00:03.250     0:57:11.174
+TIM                4816   8  95 2038 214940     0:02:32.671     0:53:42.457
+TXPlatform        15232   8   3  215   4128     0:00:00.046     0:53:41.488
+explorer          12840   8  16  970  44588     0:00:08.718     0:52:26.602
+QQExternal         7164   8  15  381  65264     0:00:06.125     0:50:37.329
+XMP               16560   8  32  881 250928     0:00:26.937     0:50:02.595
+notepad           17136   8   6  416  11404     0:00:06.531     0:48:58.304
+MicrosoftEdge      1288   8  55 1907  49844     0:00:11.734     0:46:50.193
+browser_broker      780   8   8  389   3456     0:00:00.125     0:46:50.079
+MicrosoftEdgeSH    5412   8  20  344   5680     0:00:05.453     0:46:49.934
+MicrosoftEdgeCP   16660   8  58 1223  71492     0:00:03.000     0:46:49.913
+notepad            5608   8  10  481  17472     0:00:15.015     0:44:18.813
+HaoZip            15992   8   9  711  29516     0:00:04.718     0:34:28.705
+SogouImeBroker     5144   8   8  391   6936     0:00:00.171     0:15:04.093
+MicrosoftEdgeCP    7572   8  75 1513 153956     0:00:18.953     0:14:52.579
+MicrosoftEdgeCP    4824   6  38  872  50052     0:00:00.812     0:14:39.399
+MicrosoftEdgeCP    6208   8  17  517   6060     0:00:00.203     0:14:35.812
+SearchProtocolHost  4364   4   6  273   1936     0:00:00.000     0:12:32.987
+MicrosoftEdgeCP   15876   8  69 1695 111912     0:00:07.859     0:12:18.288
+MicrosoftEdgeCP    7244   8  16  508   5996     0:00:00.109     0:11:40.364
+svchost            1672   8   5  129   3108     0:00:00.062     0:05:51.534
+SearchFilterHost  18096   4   4  132   1420     0:00:00.015     0:01:40.127
+SGTool            13612   8   9  337   8216     0:00:00.109     0:00:31.745
+svchost           15496   8   7  133   1712     0:00:00.000     0:00:11.049
+cmd               10548   8   3   79   4380     0:00:00.015     0:00:07.168
+conhost           15176   8  10  335  14020     0:00:00.203     0:00:07.162
+pslist64           7384  13   4  246   3088     0:00:00.203     0:00:00.124
+
